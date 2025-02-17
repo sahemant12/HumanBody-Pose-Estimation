@@ -20,13 +20,13 @@ Before diving into the code, you can get a glimpse of our beautiful Figma design
 ## 🚀 Try It Out!
 
 We've deployed our Pose Estimation Website, where you can interactively experience the capabilities of our model. Give it a try by visiting any of the following URLs:
-- [body-pose-estimation.netlify.app/](https://body-pose-estimation.netlify.app/)
-- [github.com/sahemant12/Body-Pose-Estimation](https://github.com/sahemant12/Body-Pose-Estimation)
+- [humanbody-pose-estimation.netlify.app/](https://humanbody-pose-estimation.netlify.app/)
+- [github.com/sahemant12/HumanBody-Pose-Estimation](https://github.com/sahemant12/HumanBody-Pose-Estimation)
 
 ## 📁 Source Code
 
 Curious about how we brought this amazing demo to life? Look no further! The entire source code for this project is available on GitHub. Feel free to explore, tinker, and contribute to the development of this showcase:
-[github.com/sahemant12/Body-Pose-Estimation](https://github.com/sahemant12/Body-Pose-Estimation)
+[github.com/sahemant12/HumanBody-Pose-Estimation](https://github.com/sahemant12/HumanBody-Pose-Estimation)
 
 
-![PoseEstimation HomePage](https://github.com/itsindrajput/PoseEstimation/assets/70815899/fec36c19-04ae-49ae-b8e5-b44886b49c89)
+![HumanPoseEstimation HomePage](/images/readmeImg.png)
