@@ -15,7 +15,8 @@ Welcome to our Interactive Human Pose Estimation Showcase! This repository hosts
 ## 🎨 Figma Design
 
 Before diving into the code, you can get a glimpse of our beautiful Figma design, which lays the foundation for our interactive demonstration. Explore the design prototype here: 
-[Figma Design Prototype](https://www.figma.com/proto/IwBTcGW9T4qGUhQMAbepp8/Human-Pose-Estimation?node-id=210%3A67&scaling=contain&page-id=0%3A1)
+[Figma Design Prototype](https://www.figma.com/design/Fc2UKWRAtuhF1c7ipBuj14/Human-Pose-Design-Website?node-id=0-1&p=f&t=MrsaSWbO8eGEksHx-0)
+
 
 ## 🚀 Try It Out!
 

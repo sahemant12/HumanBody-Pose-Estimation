@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
 *{
 	padding:0px;
 	margin:0px;
@@ -14,12 +16,14 @@ body{
 
 .jumbotron{
 	background: #DC2424;
+	/* background: #191919; */
   /* background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
   background: linear-gradient(to right, #4A569D, #DC2424); */
 	text-align: center;
   color: white;
 	margin: 0px;
   padding: 0px;
+  margin-inline: 6.3rem;
 }
 
 @media only screen and (max-width: 500px) {
@@ -56,12 +60,12 @@ h1{
 }
 
 #navbarstyle{
-	background: #FEAC5E;  
-  /* background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); */
-  /* background: linear-gradient(to right, #4BC0C8, #FEAC5E); */
   margin-bottom: 5px;
-  padding: 0px;
+  padding: 0;
   background: #4BC0C8;
+  margin: 0 2rem;
+  /* max-width: 89%; */
+    margin-inline: 6.3rem;
 }
 
 #actives:hover, #reactives:hover{
