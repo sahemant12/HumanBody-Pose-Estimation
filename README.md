@@ -1,33 +1,78 @@
-# Real Time Human Pose Estimation
-Pose estimation refers to computer vision techniques that detect human figures in images and video, so that one could determine, for example, where someone’s elbow shows up in an image. To be clear, this technology is not recognizing who is in an image — there is no personal identifiable information associated to pose detection. The algorithm is simply estimating where key body joints are.
+# 🧍‍♂️ Real-Time Human Pose Estimation
 
-The Aim of this project is to deliver the basic use cases of the Pose Net model for real-time human pose estimation using a webcam feed as the data. PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video. 
+**Pose estimation** refers to a computer vision technique that identifies and tracks key human joints (like elbows, knees, etc.) in real time from images or video. This project demonstrates human body pose estimation using [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet) — a model capable of detecting either **single-person** or **multi-person** poses via webcam.
 
-- Single-person Pose Estimation
-The single-pose estimation algorithm is the simpler and faster of the two. Its ideal use case is for when there is only one person centered in an input image or video. The disadvantage is that if there are multiple persons in an image, keypoints from both persons will likely be estimated as being part of the same single pose.
+> ⚠️ _Note: Pose Estimation does not identify the individual. It only tracks human posture and movements using keypoints._
 
-- Multi-person Pose Estimation
-The multi-person pose estimation algorithm can estimate many poses/persons in an image. It is more complex and slightly slower than the single-pose algorithm, but it has the advantage that if multiple people appear in a picture, their detected keypoints are less likely to be associated with the wrong pose. For that reason, even if the use case is to detect a single person’s pose, this algorithm may be more desirable.
+---
 
-# Interactive Showcase
-Welcome to our Interactive Human Pose Estimation Showcase! This repository hosts the code and assets used to create our fascinating Human Pose Estimation demo. With this project, we aim to showcase the capabilities of our cutting-edge Pose Estimation model.
+## 🎯 Project Objective
 
-## 🎨 Figma Design
+This project showcases real-time human pose estimation using the webcam feed. It demonstrates:
 
-Before diving into the code, you can get a glimpse of our beautiful Figma design, which lays the foundation for our interactive demonstration. Explore the design prototype here: 
-[Figma Design Prototype](https://www.figma.com/design/Fc2UKWRAtuhF1c7ipBuj14/Human-Pose-Design-Website?node-id=0-1&p=f&t=MrsaSWbO8eGEksHx-0)
+- ✅ Single-Person Pose Estimation  
+- ✅ Multi-Person Pose Estimation  
+- ✅ Hand Pose Detection
 
+It aims to provide a practical understanding of how PoseNet works and how it can be integrated into real-time applications.
 
-## 🚀 Try It Out!
+---
 
-We've deployed our Pose Estimation Website, where you can interactively experience the capabilities of our model. Give it a try by visiting any of the following URLs:
-- [humanbody-pose-estimation.netlify.app/](https://humanbody-pose-estimation.netlify.app/)
-- [github.com/sahemant12/HumanBody-Pose-Estimation](https://github.com/sahemant12/HumanBody-Pose-Estimation)
+## 📸 Features
 
-## 📁 Source Code
+### 🔹 Single-Person Pose Estimation
+- Fast and efficient.
+- Best for scenarios where only one person is present.
+- May give incorrect keypoints when multiple people appear in the frame.
 
-Curious about how we brought this amazing demo to life? Look no further! The entire source code for this project is available on GitHub. Feel free to explore, tinker, and contribute to the development of this showcase:
-[github.com/sahemant12/HumanBody-Pose-Estimation](https://github.com/sahemant12/HumanBody-Pose-Estimation)
+### 🔹 Multi-Person Pose Estimation
+- Capable of detecting multiple individuals.
+- More computationally intensive.
+- Suitable for crowded environments or group activities.
 
+---
 
-![HumanPoseEstimation HomePage](/images/readmeImg.png)
+## 💡 Interactive Showcase
+
+🚀 Experience the interactive Human Pose Estimation demo live:
+
+🔗 **Live Website**:  
+[https://humanbody-pose-estimation.netlify.app/](https://humanbody-pose-estimation.netlify.app/)
+
+📁 **Source Code**:  
+[https://github.com/sahemant12/HumanBody-Pose-Estimation](https://github.com/sahemant12/HumanBody-Pose-Estimation)
+
+🎨 **Figma Prototype**:  
+[https://www.figma.com/design/Fc2UKWRAtuhF1c7ipBuj14/Human-Pose-Design-Website?node-id=0-1&p=f&t=MrsaSWbO8eGEksHx-0](https://www.figma.com/design/Fc2UKWRAtuhF1c7ipBuj14/Human-Pose-Design-Website?node-id=0-1&p=f&t=MrsaSWbO8eGEksHx-0)
+
+![Human Pose Estimation Homepage](/images/readmeImg.png)
+
+---
+
+## 🛠️ How to Run Locally
+
+### 🔧 Prerequisites
+- A modern web browser (Chrome, Edge, Firefox)
+- Code editor like **VS Code** (optional but recommended)
+
+---
+
+### 🧩 Installation & Setup
+
+ 1. Clone the repository:
+`git clone https://github.com/sahemant12/HumanBody-Pose-Estimation.git`
+
+2. Navigate to the project folder
+`cd HumanBody-Pose-Estimation`
+
+3. Open the project in Visual Studio Code or any code editor of your choice.
+
+4. Navigate to `index.html`
+
+5. Launch with Live Server:
+    - Right-click on the `index.html` file and select `"Open with Live Server"` (make sure the Live Server extension is installed in VS Code).
+    - This will open the project in your browser with full webcam support.
+
+6. Use Pose Detection Features:
+    - Navigate to the `M-Pose Detection` tab for real-time multi-person pose detection.
+    - Navigate to the `H-Pose Detection` tab for hand pose detection using your webcam.
