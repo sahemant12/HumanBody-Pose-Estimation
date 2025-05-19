@@ -23,7 +23,7 @@ body{
   color: white;
 	margin: 0px;
   padding: 0px;
-  margin-inline: 6.3rem;
+  /* margin-inline: 6.3rem; */
 }
 
 @media only screen and (max-width: 500px) {
@@ -63,9 +63,11 @@ h1{
   margin-bottom: 5px;
   padding: 0;
   background: #4BC0C8;
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
   /* max-width: 89%; */
-    margin-inline: 6.3rem;
+  /* margin-inline: 6.3rem; */
+    /* width:89%; */
+
 }
 
 #actives:hover, #reactives:hover{

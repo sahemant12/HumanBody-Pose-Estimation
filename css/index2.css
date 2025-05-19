@@ -3,6 +3,7 @@ body {
     color: #4e4e4e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
+    margin-inline: 180px !important;
   }
   
   
@@ -129,9 +130,9 @@ body {
   margin-top: 3rem;
 }
 .about-mf .box-shadow-full {
-  padding-top: 2rem;
+  padding-top: 2rem !important;
   padding-bottom: 3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem !important;
 }
 .about-mf .about-img {
   margin-bottom: 1rem;
@@ -163,7 +164,7 @@ body {
 
 @media (min-width: 768px){
 .container, .container-md, .container-sm {
-    max-width: 89%;
+    max-width: 100%;
   }
 }
 
