@@ -23,8 +23,10 @@ body{
   color: white;
 	margin: 0px;
   padding: 0px;
-  /* margin-inline: 6.3rem; */
+  /* border: 1px solid #000; */
+
 }
+
 
 @media only screen and (max-width: 500px) {
   .display-7 {
@@ -52,7 +54,6 @@ h1{
 
 
 /* Navbar Css beigns here */
-
 @media only screen and (min-width: 500px) {
     #navbc {
       margin-top: 0rem;
@@ -67,7 +68,7 @@ h1{
   /* max-width: 89%; */
   /* margin-inline: 6.3rem; */
     /* width:89%; */
-
+  border: 1px solid black;
 }
 
 #actives:hover, #reactives:hover{
@@ -124,7 +125,7 @@ h1{
 
 @media only screen and (min-width: 750px) {
   #rehome {
-    padding: 0rem 4rem 0rem 17.5rem;
+    padding: 0rem 4rem 0rem 8rem;
   }
 }
 #rehome{
