@@ -1,6 +1,6 @@
 # 🧍‍♂️ Real-Time Human Pose Estimation
 
-**Pose estimation** refers to a computer vision technique that identifies and tracks key human joints (like elbows, knees, etc.) in real time from images or video. This project demonstrates human body pose estimation using [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet) — a model capable of detecting either **single-person** or **multi-person** poses via webcam.
+**Pose estimation** refers to a computer vision technique that identifies and tracks key human joints (like elbows, knees, etc.) in real time from images or video. This project demonstrates human body pose estimation using [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet) — a model capable of detecting  **single-person**, **multi-person** and **hand gesture** poses via webcam.
 
 > ⚠️ _Note: Pose Estimation does not identify the individual. It only tracks human posture and movements using keypoints._
 
@@ -29,6 +29,13 @@ It aims to provide a practical understanding of how PoseNet works and how it can
 - Capable of detecting multiple individuals.
 - More computationally intensive.
 - Suitable for crowded environments or group activities.
+
+### 🔹 Hand Pose Estimation
+- Detects 21 keypoints on each hand in real time.
+- Supports single-hand and dual-hand detection.
+- Tracks finger positions, palm center, and hand gestures.
+- Can be used in gesture recognition, sign language interpretation, and virtual interaction systems.
+- Powered by MediaPipe Hands for accurate and fast hand tracking.
 
 ---
 
